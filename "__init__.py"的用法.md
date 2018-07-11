@@ -71,7 +71,9 @@ __init__.py 文件会在导入时被执行。
 
 
 __init__为空时；此时代表这个文件夹为一个包，但在导入时与没有__init__文件无区别，
+
 __init__中包含  __all__ = [.....]：此时可以使用import * 用法
+
 __init__中包含 import 。。。。： 常见，此时可直接使用package.mthod方法调用package中的method
 
 
